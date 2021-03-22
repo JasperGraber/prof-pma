@@ -1,5 +1,5 @@
 <?php
-include_once("./db_connect.php");
+include_once("./connect_db.php");
 include_once("./functions.php");
 
 // Sanitize arrays.

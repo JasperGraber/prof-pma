@@ -23,7 +23,9 @@ session_start();
 <body>
   <?php
   if (isset($_GET["page"])) {
+    include("./navbar.php");
     include($_GET["page"] . ".php");
+    include("./footer.php");
   } else {
     include("./login.php");
   };
